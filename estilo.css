@@ -39,18 +39,20 @@ header h4{
     font-size: 30px;
 }
 
-.pp {
-    padding: 4%;
-    text-align: center;
-    color: #858585;
-    font-size: 30px;
-}
 .ppp {
     padding: 15%;
     text-align: center;
     color: #858585;
     font-size: 30px;
 }
+
+.pp {
+    padding: 4%;
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+ }
+ 
 .pppp {
     padding: 4%;
     text-align: center;
