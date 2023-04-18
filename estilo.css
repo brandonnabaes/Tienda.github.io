@@ -4,6 +4,7 @@
     padding:0;
     font-family: 'Open Sans';
 }
+
 header{
     background-image: url(img/OEC6qu.png);
     
@@ -24,6 +25,39 @@ header h4{
     top: 250px;
     
 }
+
+.h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #070000;
+    padding: 30px 0;
+}
+
+.p {
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+}
+
+.pp {
+    padding: 4%;
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+}
+.ppp {
+    padding: 15%;
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+}
+.pppp {
+    padding: 4%;
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+}
+  
 
 .contenedor{
     max-width: 1200px;
