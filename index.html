@@ -1,55 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Tienda daIos</title>
-   <script src="javascrip.js"></script>
-     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascrip.js" async></script>
+    <title>Tienda de Relojes | </title>
 </head>
-<body class="main">
-	<div>
-		<h1>Elije el iPhone que desea comprar</h1>
-		<div class="product">
-			<h2>iPhone 14</h2>
-			<img class="img" src="img/iphone 14.avif" alt="Producto 1">
-			<p>Precio: usd$1000</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-		<div class="product">
-			<h2>iPhone 13</h2>
-			<img class="img" src="img/133.jpg" alt="Producto 2">
-			<p>Precio: usd$700</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-		<div class="product">
-			<h2>iPhone 12</h2>
-			<img class="img" src="img/iphone 122.webp" alt="Producto 3">
-			<p>Precio: usd$600</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-		<div class="product">
-			<h2>iPhone 11</h2>
-			<img class="img" src="img/apple-iphone-11-pro-4gb-64gb-blanco.jpg" alt="Producto 4">
-			<p>Precio: usd$500</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-		<div class="product">
-			<h2>iPhone Xs</h2>
-			<img class="img" src="img/iphone Xs.jpg" alt="Producto 5">
-			<p>Precio: usd$450</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-		<div class="product">
-			<h2>iPhone X</h2>
-			<img class="img" src="img/apple-iphone-x-64gb-silver-used-20191122085356800-_w500_1-8532858c58bff3411615998345007716-640-0.jpg" alt="Producto 6">
-			<p>Precio: usd$350</p>
-			<button onclick="alert('¡Compra realizada con éxito!')">Comprar</button>
-		</div>
-	</div>
+<body>
+    <header>
+        <h1>Iphone store</h1>
+        <h4>Más que un smartphone, un estilo de vida</h4>
+    </header>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">iphone 14</span>
+                <img src="img/iphone 14.avif" alt="" class="img-item">
+                <span class="precio-item">usd$1000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone 13 pro max</span>
+                <img src="img/apple-iphone-13-pro-4gb-64gb-blanco.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$830</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone 13</span>
+                <img src="img/iphone 13.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$750</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone 12 pro max</span>
+                <img src="img/iphone-12-pro-max-7.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$680</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone 11 pro</span>
+                <img src="img/11 pro max.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone Xs</span>
+                <img src="img/iphone Xs.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$350</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone X</span>
+                <img src="img/apple-iphone-x-64gb-silver-used-20191122085356800-_w500_1-8532858c58bff3411615998345007716-640-0.jpg" alt="" class="img-item">
+                <span class="precio-item">$usd$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">iphone 8 usado</span>
+                <img src="img/8-gold1-6a3a2d63bc8fb361fb16070031417747-1024-1024.jpg" alt="" class="img-item">
+                <span class="precio-item">usd$250</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items">
+
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+		<h4>Derechos de autor &copy; 2023. Todos los derechos reservados.</h4>
+	</footer>
 </body>
 </html>
-
